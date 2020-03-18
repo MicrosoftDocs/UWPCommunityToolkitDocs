@@ -28,6 +28,10 @@ The [MasterDetailsView Control](https://docs.microsoft.com/dotnet/api/microsoft.
 
 ![MasterDetailsView animation](../resources/images/Controls/MasterDetailsView.gif)
 
+## Windows 10X
+The [MasterDetailsView Control](https://docs.microsoft.com/dotnet/api/microsoft.toolkit.uwp.ui.controls.masterdetailsview) is spanning-aware and adapts it self for multi screen devices like found on Windows 10X devices.
+This is archived by using the [Two-pane view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/two-pane-view).
+
 ## BackButtonBehavior
 When in compact mode, the MasterDetailsView will either show the Master or the Details view, not both. If an item is selected, the control will *navigate* forward to the Details view. If the CurrentItem is set to `null`, the control will navigate *back* to the Master view. 
 
@@ -52,12 +56,17 @@ To help with back navigation, The MasterDetailsView can handle back button visib
 | DetailsTemplate | DataTemplate | Gets or sets the DataTemplate used to display the details |
 | DetailsHeader | object | Gets or sets the content for the details pane's header | 
 | DetailsHeaderTemplate | DataTemplate | Gets or sets the DataTemplate used to display the content of the details pane's header |
+| DetailsPaneBackground | Brush | Gets or sets the Brush to apply to the background of the details area of the control |
+| DetailsContentTemplateSelector | DataTemplateSelector | Gets or sets the DataTemplateSelector for the details presenter. |
 | MapDetails | Func<object,object> | Gets or sets a function for mapping the selected item to a different model. This new model will be the DataContext of the Details area |
 | MasterCommandBar | CommandBar | Gets or sets the Windows.UI.Xaml.Controls.CommandBar for the master section |
 | MasterHeader | object | Gets or sets the content for the master pane's header |
 | MasterHeaderTemplate | DataTemplate | Gets or sets the DataTemplate used to display the content of the master pane's header |
 | MasterPaneBackground | Brush | Gets or sets the Brush to apply to the background of the list area of the control |
 | MasterPaneWidth | double | Gets or sets the width of the master pane when the view is expanded |
+| MasterNoItemsContent | object | Gets or sets the content for the master pane's no items presenter |
+| MasterNoItemsContentTemplate | DataTemplate | Gets or sets the DataTemplate used to display the master pane's no items presenter |
+| MasterItemTemplateSelector | DataTemplateSelector | Gets or sets the DataTemplateSelector for the master list items |
 | NoSelectionContent | object | Gets or sets the content to dsiplay when there is no item selected in the master list |
 | NoSelectionContentTemplate | DataTemplate | Gets or sets the DataTemplate used to display the content when there is no selection |
 | SelectedIndex | int | Gets or sets the selected index (-1 if nothing is selected) |
