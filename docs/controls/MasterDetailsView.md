@@ -68,7 +68,8 @@ To help with back navigation, The MasterDetailsView can handle back button visib
 | MasterNoItemsContent | object | Gets or sets the content for the master pane's no items presenter |
 | MasterNoItemsContentTemplate | DataTemplate | Gets or sets the DataTemplate used to display the master pane's no items presenter |
 | MasterItemTemplateSelector | DataTemplateSelector | Gets or sets the DataTemplateSelector for the master list items |
-| NoSelectionContent | object | Gets or sets the content to dsiplay when there is no item selected in the master list |
+| NoSelectionContent | object | Gets or sets the content to display when there is no item selected in the master list |
+
 | NoSelectionContentTemplate | DataTemplate | Gets or sets the DataTemplate used to display the content when there is no selection |
 | SelectedIndex | int | Gets or sets the selected index (-1 if nothing is selected) |
 | SelectedItem | object | Gets or sets the selected item |
