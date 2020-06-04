@@ -29,7 +29,8 @@ The [MasterDetailsView Control](https://docs.microsoft.com/dotnet/api/microsoft.
 ![MasterDetailsView animation](../resources/images/Controls/MasterDetailsView.gif)
 
 ## Windows 10X
-The [MasterDetailsView Control](https://docs.microsoft.com/dotnet/api/microsoft.toolkit.uwp.ui.controls.masterdetailsview) is spanning-aware and adapts it self for multi screen devices like found on Windows 10X devices.
+The [MasterDetailsView Control](https://docs.microsoft.com/dotnet/api/microsoft.toolkit.uwp.ui.controls.masterdetailsview) is spanning-aware and adapts itself for multi-screen devices like found on Windows 10X devices.
+
 This is archived by using the [Two-pane view](https://docs.microsoft.com/windows/uwp/design/controls-and-patterns/two-pane-view).
 
 ## BackButtonBehavior
